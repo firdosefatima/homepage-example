@@ -495,7 +495,28 @@ li{
 }
 
 @media (max-width: 340px) {
-  
+  .text1{
+    height: 50vh;
+  }
+  .invis{
+    display: none;
+  }
+  .primary{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+  }
+
+  .secondary{
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+
+}
+  .primary p{
+    padding: 0 0 3% 0;
+  }
   .container{
     height: 300px;
   }
